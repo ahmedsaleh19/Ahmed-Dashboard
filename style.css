@@ -45,6 +45,7 @@ body{
 }
 .menu:hover{
     width: 250px;
+    z-index:1;
 }
  ul{
  list-style: none;
