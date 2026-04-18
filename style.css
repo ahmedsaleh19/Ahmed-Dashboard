@@ -30,7 +30,7 @@ body{
 }
 
 .profile h2{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -45,7 +45,7 @@ body{
 }
 .menu:hover{
     width: 250px;
-    z-index:1;
+    z-index: 1;
 }
  ul{
  list-style: none;
@@ -101,7 +101,6 @@ ul li a i{
        border-radius: 10px;
 }
 .content-info{
-    /* background-color: rgb(47, 95, 79); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -168,4 +167,76 @@ table thead tr th{
     background-color: goldenrod;
     color: #000;
     border-radius: 3px;
+}
+
+
+
+@media (max-width: 480px){
+.content-info .box{
+        flex-basis: 100%;
+    }
+.box-img{
+    width:35px;
+    height:35px;
+
+}     
+
+.profile{
+    gap: 2px;
+    /* margin-bottom: 10px;     */
+   }
+
+.profile h2{
+    font-size: 1px bold; 
+
+    }
+
+.menu{
+    width: 30px;
+    height: auto;
+    padding: 10px;
+ 
+}
+.menu:hover{
+    width: 100%;
+    z-index: 1;
+}
+ul  li a{
+    padding: 5px;
+    margin: 5px 0;
+    gap: 15px;
+    transition:  0.5s ease; ;
+}
+ul li a i{
+    font-size: 15px;
+}
+
+.content .title-info{
+       padding: 5px ;
+       justify-items: auto;
+       margin: 5px 0;
+       border-radius: 5px;
+}
+
+ .content-info .box{
+    height: 100px;
+    flex-basis: 30%;
+    gap: 10px;
+    padding: 5px;
+    flex-grow:1 ;
+
+} 
+
+
+.content-info .box i{
+    font-size: 25px;
+} 
+ 
+
+.content-info .box .data span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
 }
